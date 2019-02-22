@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADD888E221F9DFF00257A3A /* TYRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD888D221F9DFF00257A3A /* TYRecordButton.m */; };
+		2ADD8894221FA7C500257A3A /* TYRecordSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD8893221FA7C500257A3A /* TYRecordSuccessView.m */; };
+		2ADD8897221FA92200257A3A /* SGMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD8895221FA92200257A3A /* SGMotionManager.m */; };
+		2ADD889A221FD1A300257A3A /* TYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD8899221FD1A300257A3A /* TYTestViewController.m */; };
+		2AE9400C221EB003005C37F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9400B221EB003005C37F9 /* AppDelegate.m */; };
+		2AE9400F221EB003005C37F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9400E221EB003005C37F9 /* ViewController.m */; };
+		2AE94012221EB003005C37F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE94010221EB003005C37F9 /* Main.storyboard */; };
+		2AE94014221EB003005C37F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE94013221EB003005C37F9 /* Assets.xcassets */; };
+		2AE94017221EB003005C37F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE94015221EB003005C37F9 /* LaunchScreen.storyboard */; };
+		2AE9401A221EB003005C37F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE94019221EB003005C37F9 /* main.m */; };
+		2AE94022221EB09F005C37F9 /* TYRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE94021221EB09F005C37F9 /* TYRecordView.m */; };
+		2AE94025221EB15F005C37F9 /* TYRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE94024221EB15F005C37F9 /* TYRecordEngine.m */; };
+		2AE94028221EB24A005C37F9 /* TYRecordEnginer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE94027221EB24A005C37F9 /* TYRecordEnginer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ADD888C221F9DFF00257A3A /* TYRecordButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecordButton.h; sourceTree = "<group>"; };
+		2ADD888D221F9DFF00257A3A /* TYRecordButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecordButton.m; sourceTree = "<group>"; };
+		2ADD8892221FA7C500257A3A /* TYRecordSuccessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecordSuccessView.h; sourceTree = "<group>"; };
+		2ADD8893221FA7C500257A3A /* TYRecordSuccessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecordSuccessView.m; sourceTree = "<group>"; };
+		2ADD8895221FA92200257A3A /* SGMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMotionManager.m; sourceTree = "<group>"; };
+		2ADD8896221FA92200257A3A /* SGMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMotionManager.h; sourceTree = "<group>"; };
+		2ADD8898221FD1A300257A3A /* TYTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTestViewController.h; sourceTree = "<group>"; };
+		2ADD8899221FD1A300257A3A /* TYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTestViewController.m; sourceTree = "<group>"; };
+		2AE94007221EB003005C37F9 /* TYRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE9400A221EB003005C37F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AE9400B221EB003005C37F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AE9400D221EB003005C37F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AE9400E221EB003005C37F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AE94011221EB003005C37F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AE94013221EB003005C37F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE94016221EB003005C37F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AE94018221EB003005C37F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE94019221EB003005C37F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AE94020221EB09F005C37F9 /* TYRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecordView.h; sourceTree = "<group>"; };
+		2AE94021221EB09F005C37F9 /* TYRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecordView.m; sourceTree = "<group>"; };
+		2AE94023221EB15F005C37F9 /* TYRecordEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecordEngine.h; sourceTree = "<group>"; };
+		2AE94024221EB15F005C37F9 /* TYRecordEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecordEngine.m; sourceTree = "<group>"; };
+		2AE94026221EB24A005C37F9 /* TYRecordEnginer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecordEnginer.h; sourceTree = "<group>"; };
+		2AE94027221EB24A005C37F9 /* TYRecordEnginer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecordEnginer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE94004221EB003005C37F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE93FFE221EB002005C37F9 = {
+			isa = PBXGroup;
+			children = (
+				2AE94009221EB003005C37F9 /* TYRecordDemo */,
+				2AE94008221EB003005C37F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE94008221EB003005C37F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE94007221EB003005C37F9 /* TYRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE94009221EB003005C37F9 /* TYRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2AE9400A221EB003005C37F9 /* AppDelegate.h */,
+				2AE9400B221EB003005C37F9 /* AppDelegate.m */,
+				2AE9400D221EB003005C37F9 /* ViewController.h */,
+				2AE9400E221EB003005C37F9 /* ViewController.m */,
+				2ADD8898221FD1A300257A3A /* TYTestViewController.h */,
+				2ADD8899221FD1A300257A3A /* TYTestViewController.m */,
+				2AE94020221EB09F005C37F9 /* TYRecordView.h */,
+				2AE94021221EB09F005C37F9 /* TYRecordView.m */,
+				2ADD888C221F9DFF00257A3A /* TYRecordButton.h */,
+				2ADD888D221F9DFF00257A3A /* TYRecordButton.m */,
+				2ADD8892221FA7C500257A3A /* TYRecordSuccessView.h */,
+				2ADD8893221FA7C500257A3A /* TYRecordSuccessView.m */,
+				2ADD8896221FA92200257A3A /* SGMotionManager.h */,
+				2ADD8895221FA92200257A3A /* SGMotionManager.m */,
+				2AE94023221EB15F005C37F9 /* TYRecordEngine.h */,
+				2AE94024221EB15F005C37F9 /* TYRecordEngine.m */,
+				2AE94026221EB24A005C37F9 /* TYRecordEnginer.h */,
+				2AE94027221EB24A005C37F9 /* TYRecordEnginer.m */,
+				2AE94010221EB003005C37F9 /* Main.storyboard */,
+				2AE94013221EB003005C37F9 /* Assets.xcassets */,
+				2AE94015221EB003005C37F9 /* LaunchScreen.storyboard */,
+				2AE94018221EB003005C37F9 /* Info.plist */,
+				2AE94019221EB003005C37F9 /* main.m */,
+			);
+			path = TYRecordDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE94006221EB003005C37F9 /* TYRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE9401D221EB003005C37F9 /* Build configuration list for PBXNativeTarget "TYRecordDemo" */;
+			buildPhases = (
+				2AE94003221EB003005C37F9 /* Sources */,
+				2AE94004221EB003005C37F9 /* Frameworks */,
+				2AE94005221EB003005C37F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYRecordDemo;
+			productName = TYRecordDemo;
+			productReference = 2AE94007221EB003005C37F9 /* TYRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE93FFF221EB002005C37F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hxq;
+				TargetAttributes = {
+					2AE94006221EB003005C37F9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AE94002221EB002005C37F9 /* Build configuration list for PBXProject "TYRecordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AE93FFE221EB002005C37F9;
+			productRefGroup = 2AE94008221EB003005C37F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE94006221EB003005C37F9 /* TYRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE94005221EB003005C37F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE94017221EB003005C37F9 /* LaunchScreen.storyboard in Resources */,
+				2AE94014221EB003005C37F9 /* Assets.xcassets in Resources */,
+				2AE94012221EB003005C37F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE94003221EB003005C37F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADD8894221FA7C500257A3A /* TYRecordSuccessView.m in Sources */,
+				2ADD889A221FD1A300257A3A /* TYTestViewController.m in Sources */,
+				2AE94022221EB09F005C37F9 /* TYRecordView.m in Sources */,
+				2ADD8897221FA92200257A3A /* SGMotionManager.m in Sources */,
+				2AE9400F221EB003005C37F9 /* ViewController.m in Sources */,
+				2AE94028221EB24A005C37F9 /* TYRecordEnginer.m in Sources */,
+				2AE9401A221EB003005C37F9 /* main.m in Sources */,
+				2AE94025221EB15F005C37F9 /* TYRecordEngine.m in Sources */,
+				2ADD888E221F9DFF00257A3A /* TYRecordButton.m in Sources */,
+				2AE9400C221EB003005C37F9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AE94010221EB003005C37F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE94011221EB003005C37F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AE94015221EB003005C37F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE94016221EB003005C37F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AE9401B221EB003005C37F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AE9401C221EB003005C37F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AE9401E221EB003005C37F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N3C82T5Y3;
+				INFOPLIST_FILE = TYRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hxq.TYRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AE9401F221EB003005C37F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N3C82T5Y3;
+				INFOPLIST_FILE = TYRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hxq.TYRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE94002221EB002005C37F9 /* Build configuration list for PBXProject "TYRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE9401B221EB003005C37F9 /* Debug */,
+				2AE9401C221EB003005C37F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE9401D221EB003005C37F9 /* Build configuration list for PBXNativeTarget "TYRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE9401E221EB003005C37F9 /* Debug */,
+				2AE9401F221EB003005C37F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE93FFF221EB002005C37F9 /* Project object */;
+}
